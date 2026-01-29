@@ -89,6 +89,42 @@
       "createdAt": "2026-01-28T22:39:43.998Z",
       "updatedAt": "2026-01-28T22:39:43.998Z",
       "__v": 0
+    },
+    {
+      "_id": "697af92353cd1138f88da349",
+      "name": "ramu",
+      "email": "ramu@gmail.com",
+      "password": "$2b$10$OCWYGk2Da98rbcpZPjkcleUiKTqf9fj1XJHshuTdVEJ8WYyWTZAXm",
+      "role": "transport_incharge",
+      "department": "CSE",
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-29T06:07:31.722Z",
+      "updatedAt": "2026-01-29T06:07:31.722Z",
+      "__v": 0
+    },
+    {
+      "_id": "697af94753cd1138f88da3a8",
+      "name": "hod",
+      "email": "hod@gmail.com",
+      "password": "$2b$10$UkbdRxkeyUZ0TBvmznZAv.zkPiKmOxsHYCD7m606GlwHbwlDLN2vm",
+      "role": "hod",
+      "department": "CSE",
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-29T06:08:07.943Z",
+      "updatedAt": "2026-01-29T06:08:07.943Z",
+      "__v": 0
+    },
+    {
+      "_id": "697af96c53cd1138f88da3fd",
+      "name": "w1",
+      "email": "w1@gmail.com",
+      "password": "$2b$10$mFK9lezNaFnUpjsAV60O4uyeRJMW7sIgYxxKCRYF7clIWXzFfA7aO",
+      "role": "warden",
+      "department": "CSE",
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-29T06:08:44.457Z",
+      "updatedAt": "2026-01-29T06:08:44.457Z",
+      "__v": 0
     }
   ],
   "issues": [
@@ -208,6 +244,46 @@
       "createdAt": "2026-01-28T22:37:21.824Z",
       "updatedAt": "2026-01-28T22:38:19.675Z",
       "__v": 0
+    },
+    {
+      "_id": "697af23153cd1138f88d957b",
+      "title": "fans ",
+      "description": "fans not working ",
+      "category": "infrastructure",
+      "severity": "medium",
+      "status": "closed",
+      "resolutionVerified": true,
+      "assignedChain": [
+        "697a7cf57cdee4ccbc2b1e6a"
+      ],
+      "createdBy": "697a7a4e7cdee4ccbc2b1d26",
+      "assignedTo": "697a7cf57cdee4ccbc2b1e6a",
+      "currentHandler": "697a7cf57cdee4ccbc2b1e6a",
+      "initialAuthority": "697a7cf57cdee4ccbc2b1e6a",
+      "department": "CSE",
+      "escalationLevel": 0,
+      "reopenCount": 0,
+      "slaDeadline": "2026-01-30T05:37:53.565Z",
+      "forwardedHistory": [],
+      "updateLogs": [
+        {
+          "status": "resolved",
+          "updatedBy": "697a7a297cdee4ccbc2b1d09",
+          "updatedAt": "2026-01-29T05:41:59.105Z",
+          "_id": "697af32753cd1138f88d9736"
+        },
+        {
+          "status": "closed",
+          "updatedBy": "697a7a4e7cdee4ccbc2b1d26",
+          "updatedAt": "2026-01-29T05:42:33.048Z",
+          "_id": "697af34953cd1138f88d9791"
+        }
+      ],
+      "createdAt": "2026-01-29T05:37:53.568Z",
+      "updatedAt": "2026-01-29T05:42:33.049Z",
+      "__v": 2,
+      "resolutionImage": "/uploads/image-1769665303014.jpeg",
+      "resolutionNote": "work done  "
     }
   ]
 }

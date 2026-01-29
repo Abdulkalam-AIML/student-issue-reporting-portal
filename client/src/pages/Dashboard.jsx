@@ -22,12 +22,23 @@ const Dashboard = () => {
     const [expandedIssueId, setExpandedIssueId] = useState(null);
     const [authorities, setAuthorities] = useState([]);
     const [myScore, setMyScore] = useState(null);
+    const [userName, setUserName] = useState('User');
 
     const navigate = useNavigate();
     const role = localStorage.getItem('role');
     const userId = localStorage.getItem('userId');
 
     useEffect(() => {
+        const userInfo = localStorage.getItem('userInfo');
+        if (userInfo) {
+            try {
+                const parsed = JSON.parse(userInfo);
+                // Handle both flat structure and nested .user structure
+                setUserName(parsed.name || parsed.user?.name || 'User');
+            } catch (e) {
+                console.error("Error parsing user info", e);
+            }
+        }
         fetchIssues();
     }, []);
 
@@ -178,8 +189,9 @@ const Dashboard = () => {
                 <header className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-6">
                     <div>
                         <h1 className="text-3xl font-bold text-slate-800">
-                            Student Issue Requesting Portal
+                            Hello {userName}
                         </h1>
+                        <p className="text-slate-500">Welcome back to the portal</p>
                     </div>
 
                     <div className="flex items-center gap-4">

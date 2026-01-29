@@ -15,15 +15,22 @@ dotenv.config();
 
 // Connect to Database
 connectDB().then(async () => {
-    // Attempt to restore data from disk
-    const restored = await loadData();
+    // Attempt to restore data from disk (SKIP ON VERCEL)
+    if (!process.env.VERCEL) {
+        const restored = await loadData();
 
-    // Only seed if NO data was restored AND DB is empty
-    if (!restored) {
-        console.log('No backup found, running seeder...');
-        await seedData();
+        // Only seed if NO data was restored AND DB is empty
+        if (!restored) {
+            console.log('No backup found, running seeder...');
+            await seedData();
+        } else {
+            console.log('Data restored from backup. Skipping seed.');
+        }
     } else {
-        console.log('Data restored from backup. Skipping seed.');
+        // On Vercel, just connect. 
+        // NOTE: In a real app, you would verify if DB is empty and seed once, 
+        // but here we simply rely on what's in MongoDB Atlas.
+        console.log('Running on Vercel: Skipping local file restore.');
     }
 
     // AUTOSAVE: Persist data every 5 seconds
@@ -75,6 +82,10 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-    console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+    });
+}
+
+module.exports = app;
