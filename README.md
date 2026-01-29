@@ -257,16 +257,23 @@ Integration with institutional ERP systems
 
 <img width="1470" height="953" alt="Screenshot 2026-01-29 at 11 07 52 AM" src="https://github.com/user-attachments/assets/66a2fab5-433b-4760-93ef-31085189c04f" />
 
+
+
 **2.admin see the issue**
 
 
 <img width="1470" height="953" alt="Screenshot 2026-01-29 at 11 12 42 AM" src="https://github.com/user-attachments/assets/ba3c61b2-018c-4a52-8e2b-adcfff2d9ea3" />
 
 
+
+
 **3.admin can forward the work or reslove and upload the work after sloveing**
 
 
+
 <img width="1470" height="953" alt="Screenshot 2026-01-29 at 11 11 57 AM" src="https://github.com/user-attachments/assets/4882ebec-f3b1-4ba2-bdfb-18126c432374" />
+
+
 
 
 **4.student verifiy the work**
@@ -275,10 +282,14 @@ Integration with institutional ERP systems
 <img width="1470" height="953" alt="Screenshot 2026-01-29 at 11 12 30 AM" src="https://github.com/user-attachments/assets/bfd0ea31-1913-4503-a082-8a553b626e16" />
 
 
+
+
 **5.if student satisfied then he will click reslove**
 
 
 <img width="1470" height="953" alt="Screenshot 2026-01-29 at 11 12 42 AM" src="https://github.com/user-attachments/assets/35a3cdd4-376d-44e2-a4ec-4f0f1f08473e" />
+
+
 
 
 
