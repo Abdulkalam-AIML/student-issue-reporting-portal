@@ -1,4 +1,4 @@
-Overview
+**Overview**
 
 The Real-Time Student Issue Reporting & Accountability System is a role-based governance platform designed to bring transparency, accountability, and structure to issue management in educational institutions.
 
@@ -14,7 +14,7 @@ Verified with proof before closure
 
 The goal is to prevent issues from being ignored and to create a reliable resolution process.
 
-Problem Statement
+**Problem Statement**
 
 Traditional grievance systems in colleges often suffer from:
 
@@ -32,7 +32,7 @@ Absence of analytics to identify recurring problems
 
 These limitations lead to poor accountability and dissatisfaction among students.
 
-Proposed Solution
+**Proposed Solution**
 
 This project introduces a structured, hierarchical, and transparent issue resolution framework. The system enforces responsibility at each level of authority and ensures that no issue is closed without proper verification.
 
@@ -48,8 +48,10 @@ Student confirmation before closure
 
 Complete audit trail
 
-User Roles
-Student
+**User Roles**
+
+
+**Student**
 
 Submit issues with description and photo
 
@@ -59,51 +61,51 @@ Track issue progress
 
 Accept or reject resolution
 
-Admin
+**Admin**
 
 View all newly reported issues
 
 Assign issues to appropriate departments
 
-Principal
+**Principal**
 
 Monitor all issues and escalations
 
 View institutional analytics
 
-Dean
+**Dean**
 
 Manage academic-level issues
 
 Assign to relevant HOD
 
-HOD (Head of Department)
+**HOD (Head of Department)**
 
 Oversee department issues
 
 Assign to faculty
 
-Faculty
+**Faculty**
 
 Resolve academic-related problems
 
-Hostel Warden
+**Hostel Warden**
 
 Handle hostel-related issues
 
-Transport Team
+**Transport Team**
 
 Handle transport-related issues
 
-Maintenance/Facilities Team
+**Maintenance/Facilities Team**
 
 Handle infrastructure and facility problems
 
-System Architecture
+**System Architecture**
 
 The system follows a modular, role-based architecture.
 
-Frontend Layer
+**Frontend Layer**
 
 User dashboards (Student, Admin, Authorities, Principal)
 
@@ -113,7 +115,7 @@ Status tracking timeline
 
 Role-specific views
 
-Backend Layer
+**Backend Layer**
 
 Authentication and authorization services
 
@@ -125,7 +127,7 @@ Escalation logic
 
 Activity logging service
 
-Database Layer
+**Database Layer**
 
 User data (roles and profiles)
 
@@ -137,13 +139,13 @@ Activity logs
 
 Escalation records
 
-Storage Layer
+**Storage Layer**
 
 Image storage for issue evidence
 
 Resolution proof images
 
-Security Layer
+**Security Layer**
 
 Role-based access control
 
@@ -151,7 +153,7 @@ Action validation based on user role
 
 Protected routes and APIs
 
-System Workflow
+**System Workflow**
 
 Student logs in and submits an issue with details and supporting image.
 
@@ -177,7 +179,7 @@ If the student accepts, the issue is closed.
 
 If rejected, the issue reopens and returns to the authority.
 
-Key Features
+**Key Features**
 
 Role-based hierarchical system
 
@@ -193,7 +195,7 @@ Escalation for unresolved issues
 
 Transparent tracking for all stakeholders
 
-System Modules
+**System Modules**
 
 Authentication Module
 
@@ -213,7 +215,7 @@ Activity Logging Module
 
 Dashboard and Analytics Module
 
-Technology Stack
+**Technology Stack**
 
 Frontend: React.js
 Backend: Node.js / Firebase
@@ -221,7 +223,7 @@ Database: Firestore or MongoDB
 Storage: Cloud Storage
 Authentication: Role-based authentication system
 
-Advantages
+**Advantages**
 
 Enforces responsibility at every level
 
@@ -235,7 +237,7 @@ Provides structured escalation
 
 Enables data-driven governance
 
-Future Scope
+**Future Scope**
 
 AI-based issue categorization
 
@@ -247,6 +249,6 @@ Mobile application
 
 Integration with institutional ERP systems
 
-Conclusion
+**Conclusion**
 
 This system transforms the traditional grievance process into a structured accountability framework. By combining role-based control, proof-based resolution, and transparent tracking, it ensures that student issues are handled efficiently and responsibly.
