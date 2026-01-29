@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+    /* SOFT PASTEL THEME (Strictly per user request) */
+    --color-primary: #f8faff;
+    /* Ice Blue/White Mix - Main Background */
+    --color-secondary: #ffffff;
+    /* Pure White - Cards */
+
+    --color-lavender-mist: #e6e6fa;
+    /* Light Purple - Backgrounds */
+    --color-soft-lilac: #dcd0ff;
+    /* Pastel Purple - Cards/Highlights */
+    --color-powder-blue: #b0e0e6;
+    /* Muted Blue - Dividers/bg */
+    --color-sky-blue: #87ceeb;
+    /* Calm Blue - Icons/Links */
+    --color-ice-blue: #f0f8ff;
+    /* Very Light Cyan - Footer */
+
+    /* Text Colors - Dark enough for legibility, but soft */
+    --color-text-main: #1a202c;
+    /* Slate 900 - Darker for readability */
+    --color-text-muted: #475569;
+    /* Slate 600 - Darker for readability */
+    --color-text-accent: #6b46c1;
+    /* Purple 600 - Links/Buttons */
+
+    --color-border: #e2e8f0;
+    /* Slate 200 */
+
+    --font-sans: 'Inter', sans-serif;
+
+    --animate-float: float 6s ease-in-out infinite;
+    --animate-slide-up: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    --animate-parallax-slow: parallax 20s linear infinite alternate;
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    @keyframes slideUp {
+        from {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes parallax {
+        0% {
+            transform: translateY(0) translateX(0);
+        }
+
+        100% {
+            transform: translateY(-20px) translateX(20px);
+        }
+    }
+}
+
+/* Component Classes */
+.btn-primary {
+    @apply flex items-center justify-center gap-2 bg-gradient-to-r from-[#b0e0e6] to-[#87ceeb] text-slate-700 px-6 py-3 rounded-xl font-bold hover:shadow-lg hover:shadow-blue-200 transition-all active:scale-95;
+    /* Powder Blue -> Sky Blue Gradient */
+}
+
+.btn-secondary {
+    @apply bg-white text-slate-600 font-medium px-6 py-2.5 rounded-lg hover:bg-slate-50 transition-all border border-slate-200 hover:border-slate-300;
+}
+
+.glass-input {
+    @apply w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#dcd0ff] focus:border-[#b0e0e6] transition-all text-slate-700 placeholder:text-slate-400;
+}
+
+.pastel-card {
+    @apply bg-white border border-[#e2e8f0] shadow-sm hover:shadow-md transition-shadow rounded-2xl;
+}
+
+.badge-urgent {
+    @apply bg-red-50 text-red-600 border border-red-100;
+}
+
+.badge-high {
+    @apply bg-orange-50 text-orange-600 border border-orange-100;
+}
+
+.badge-medium {
+    @apply bg-yellow-50 text-yellow-600 border border-yellow-100;
+}
+
+.badge-low {
+    @apply bg-blue-50 text-blue-600 border border-blue-100;
+}

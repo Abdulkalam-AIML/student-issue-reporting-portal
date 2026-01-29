@@ -1,0 +1,213 @@
+{
+  "users": [
+    {
+      "_id": "697a7a297cdee4ccbc2b1d09",
+      "name": "Hackathon Admin",
+      "email": "hackthon@gmail.com",
+      "password": "$2b$10$YUV7LCPX7sPD9dc0WWk0I.Ia5J7QsFCYy/MWozChC3b3rEtv72IJC",
+      "role": "admin",
+      "department": "Administration",
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-28T21:05:45.567Z",
+      "updatedAt": "2026-01-28T21:05:45.567Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a7a4e7cdee4ccbc2b1d26",
+      "name": "ak",
+      "email": "1234567@gmail.com",
+      "password": "$2b$10$pYJ4lBMVKPcWuUbTRWHvq./9GtOs.5vj21DoT7o9vPClYRE5KqT6G",
+      "role": "student",
+      "studentType": "hosteller",
+      "department": "CSE",
+      "year": 1,
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-28T21:06:22.468Z",
+      "updatedAt": "2026-01-28T21:06:22.468Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a7c4d7cdee4ccbc2b1df9",
+      "name": "Hackathon Admin",
+      "email": "hackathon@gmail.com",
+      "password": "$2b$10$lB3v2Wxg7SDdIs9VgWWV3.BMZaRTUuUIQO9rkU0aPk2ffYij4JZju",
+      "role": "admin",
+      "department": "Administration",
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-28T21:14:53.996Z",
+      "updatedAt": "2026-01-28T21:14:53.996Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a7cf57cdee4ccbc2b1e6a",
+      "name": "p1",
+      "email": "p1@gmail.com",
+      "password": "$2b$10$WHAB1MwosRPVeNxljeYJ9uB3rFtUpbNE9uMD/3Q7OB0etdpOSFdPK",
+      "role": "principal",
+      "department": "CSE",
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-28T21:17:41.340Z",
+      "updatedAt": "2026-01-28T21:17:41.340Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a7ef17cdee4ccbc2b1f53",
+      "name": "Test Student",
+      "email": "tester124@srm.edu",
+      "password": "$2b$10$CvvUb9iyjs2j.lHJFypxEODF1tLp9HC4VHzvgZUngY7sjtLNnLwya",
+      "role": "student",
+      "studentType": "hosteller",
+      "department": "CSE",
+      "year": 1,
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-28T21:26:09.484Z",
+      "updatedAt": "2026-01-28T21:26:09.484Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a804e7cdee4ccbc2b1ff2",
+      "name": "ak",
+      "email": "ak@gmail.com",
+      "password": "$2b$10$sgFEosd4yho1yJ2gBoaZVO43LTo7RVTHliAgasFV8ON7NOz/2db/u",
+      "role": "student",
+      "studentType": "hosteller",
+      "department": "CSE",
+      "year": 1,
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-28T21:31:58.054Z",
+      "updatedAt": "2026-01-28T21:31:58.054Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a902f19c5229bbaac9a10",
+      "name": "p1",
+      "email": "p12@gmail.com",
+      "password": "$2b$10$2SMm507r8N44YC.Rzch.J.ifJIj3fOkAXtMzPg44BnBtxK3Bn8Pci",
+      "role": "principal",
+      "department": "CSE",
+      "accountabilityScore": 100,
+      "createdAt": "2026-01-28T22:39:43.998Z",
+      "updatedAt": "2026-01-28T22:39:43.998Z",
+      "__v": 0
+    }
+  ],
+  "issues": [
+    {
+      "_id": "697a7fd27cdee4ccbc2b1fba",
+      "title": "Connection Test",
+      "description": "Testing backend connection",
+      "category": "infrastructure",
+      "severity": "medium",
+      "status": "pending-review",
+      "resolutionVerified": false,
+      "assignedChain": [
+        "697a7cf57cdee4ccbc2b1e6a"
+      ],
+      "createdBy": "697a7ef17cdee4ccbc2b1f53",
+      "assignedTo": "697a7cf57cdee4ccbc2b1e6a",
+      "currentHandler": "697a7cf57cdee4ccbc2b1e6a",
+      "initialAuthority": "697a7cf57cdee4ccbc2b1e6a",
+      "department": "CSE",
+      "escalationLevel": 0,
+      "reopenCount": 0,
+      "slaDeadline": "2026-01-29T21:29:54.078Z",
+      "forwardedHistory": [],
+      "updateLogs": [],
+      "createdAt": "2026-01-28T21:29:54.095Z",
+      "updatedAt": "2026-01-28T21:29:54.095Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a8d03019b81479e80f482",
+      "title": "water",
+      "description": "water",
+      "category": "infrastructure",
+      "severity": "medium",
+      "status": "closed",
+      "resolutionImage": "/uploads/image-1769639753678.JPG",
+      "resolutionNote": "yes done",
+      "resolutionVerified": true,
+      "assignedChain": [
+        "697a7cf57cdee4ccbc2b1e6a"
+      ],
+      "createdBy": "697a804e7cdee4ccbc2b1ff2",
+      "assignedTo": "697a7cf57cdee4ccbc2b1e6a",
+      "currentHandler": "697a7cf57cdee4ccbc2b1e6a",
+      "initialAuthority": "697a7cf57cdee4ccbc2b1e6a",
+      "department": "CSE",
+      "escalationLevel": 0,
+      "reopenCount": 0,
+      "slaDeadline": "2026-01-29T22:26:11.306Z",
+      "forwardedHistory": [],
+      "updateLogs": [
+        {
+          "status": "resolved",
+          "updatedBy": "697a7a297cdee4ccbc2b1d09",
+          "updatedAt": "2026-01-28T22:26:59.672Z",
+          "_id": "697a8d33019b81479e80f4b1"
+        },
+        {
+          "status": "closed",
+          "updatedBy": "697a804e7cdee4ccbc2b1ff2",
+          "updatedAt": "2026-01-28T22:30:39.330Z",
+          "_id": "697a8e0f19c5229bbaac96b1"
+        },
+        {
+          "status": "resolved",
+          "updatedBy": "697a7cf57cdee4ccbc2b1e6a",
+          "updatedAt": "2026-01-28T22:36:06.070Z",
+          "_id": "697a8f5619c5229bbaac987c"
+        },
+        {
+          "status": "closed",
+          "updatedBy": "697a7cf57cdee4ccbc2b1e6a",
+          "updatedAt": "2026-01-28T22:36:08.336Z",
+          "_id": "697a8f5819c5229bbaac9890"
+        }
+      ],
+      "createdAt": "2026-01-28T22:26:11.309Z",
+      "updatedAt": "2026-01-28T22:36:08.338Z",
+      "__v": 0
+    },
+    {
+      "_id": "697a8fa119c5229bbaac98f6",
+      "title": "fans",
+      "description": "fans are not working",
+      "category": "infrastructure",
+      "severity": "medium",
+      "status": "closed",
+      "resolutionImage": "/uploads/image-1769639866804.JPG",
+      "resolutionNote": "done",
+      "resolutionVerified": true,
+      "assignedChain": [
+        "697a7cf57cdee4ccbc2b1e6a"
+      ],
+      "createdBy": "697a7a4e7cdee4ccbc2b1d26",
+      "assignedTo": "697a7cf57cdee4ccbc2b1e6a",
+      "currentHandler": "697a7cf57cdee4ccbc2b1e6a",
+      "initialAuthority": "697a7cf57cdee4ccbc2b1e6a",
+      "department": "CSE",
+      "escalationLevel": 0,
+      "reopenCount": 0,
+      "slaDeadline": "2026-01-29T22:37:21.822Z",
+      "forwardedHistory": [],
+      "updateLogs": [
+        {
+          "status": "resolved",
+          "updatedBy": "697a7a297cdee4ccbc2b1d09",
+          "updatedAt": "2026-01-28T22:37:51.313Z",
+          "_id": "697a8fbf19c5229bbaac9941"
+        },
+        {
+          "status": "closed",
+          "updatedBy": "697a7a4e7cdee4ccbc2b1d26",
+          "updatedAt": "2026-01-28T22:38:19.673Z",
+          "_id": "697a8fdb19c5229bbaac9981"
+        }
+      ],
+      "createdAt": "2026-01-28T22:37:21.824Z",
+      "updatedAt": "2026-01-28T22:38:19.675Z",
+      "__v": 0
+    }
+  ]
+}
